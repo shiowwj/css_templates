@@ -6,6 +6,43 @@
 	padding-right: 150px;
 }
 
+#menu_bar{
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 1080px){
+	#menu_bar{
+		display: flex;
+		flex-direction: column;
+	}
+	.collapsible{
+		background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+	}
+}
+.menu-tab{
+	display: inline-block;
+	color: white;
+
+	background-color: #313131;
+	padding:10px 20px 20px 20px;
+	width:14.2857%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 #title{
 	text-align: center;
  	/*background-color: green;*/
@@ -71,4 +108,26 @@
 
 #type-box-2{
 	background-color: #B083C4;
+}
+
+#menu-1{
+	border-bottom: 5px solid red;
+}
+#menu-2{
+	border-bottom: 5px solid blue;
+}
+#menu-3{
+	border-bottom: 5px solid green;
+}
+#menu-4{
+	border-bottom: 5px solid purple;
+}
+#menu-5{
+	border-bottom: 5px solid pink;
+}
+#menu-6{
+	border-bottom: 5px solid teal;
+}
+#menu-7{
+	border-bottom: 5px solid orange;
 }
