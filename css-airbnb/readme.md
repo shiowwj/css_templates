@@ -1,0 +1,39 @@
+# Airbnb Mockup
+
+Lots of websites, including Facebook and Airbnb, use a grid layout to display common elements, such as information cards, photos, and other information. The best way to learn how to create these different layouts is to try them ourselves. So let's try recreating a portion of [Airbnb's website](https://www.airbnb.com/).
+
+## Getting Started
+* Fork and clone this repository to your computer
+* A HTML file (`index.html`) and CSS file (`css/style.css`) have been created for you. Content is also provided in a folder called `img`
+
+## Requirements
+* Look at the deliverable screenshot and see how well you can match it.
+* Keep the following in mind when recreating the screenshot
+  * Using the right font
+  * Obtaining and using relevant images
+  * Aligning the text in the center of each image
+  * Aligning the images in the center of each page
+  * Thinking of the layout in terms of rows and columns
+
+## Deliverable
+
+Here's a screenshot of the portion that should be replicated. Deliver the mockup as close as possible. In addition, code should be well-indented and follow best practices, including no linter errors.
+
+![Solution](solution.jpg)
+
+## Bonus - Adding Interactivity
+
+Refer back to the gitbook section on DOM and Events.
+[DOM Manipulation](https://wdi-sg.github.io/gitbook-2018/02-js/js-dom-events/readme.html)
+[Events](https://wdi-sg.github.io/gitbook-2018/02-js/js-dom-events/readme.html#events)
+
+- Attach a click event listener to the **See All Guidebooks** button. `Alert` the user that this feature isn't done yet.
+- Attach a click event listener to the **See All Destinations** button. `Alert` the user that this feature isn't done yet.
+- Attach a click event listener to each destination square. Inside the callback function, use `window.open` to trigger a new window with a google map page of that destination.
+- Example url (just copy the entire url from the address bar): `https://www.google.com.sg/maps/place/Sonoma,+CA+95476,+USA/@38.291092,-122.4666091,14z/data=!3m1!4b1!4m5!3m4!1s0x8085ac43817b9d77:0x380ed210ee6e045!8m2!3d38.291859!4d-122.4580356?hl=en`
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
